@@ -1,0 +1,134 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0\TERANG_1.prj" location="D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0" name="TERANG_1" preferred-package-location="D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0\TERANG_1\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>TERANG</param.appname>
+    <param.icon>${PROJECT_ROOT}\TERANG_1_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\TERANG_1_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\TERANG_1_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\TERANG_1_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\TERANG_1_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Roi Milyardi</param.authnamewatermark>
+    <param.email>terang.software@gmail.com</param.email>
+    <param.company>Institut Teknologi Bandung</param.company>
+    <param.summary>A software module for estimating physical and operational losses of buildings due to earthquakes, focusing on school buildings for v1.0</param.summary>
+    <param.description>A software module that estimates the physical and operational losses of buildings due to earthquakes. In v1.0, TERANG focuses on school buildings. The TERANG v.1.0 module also focuses on school building data in Indonesia. The module is the result of Roi Milyardi's dissertation research at the Bandung Institute of Technology, Indonesia under supervision Prof.Krishna Suryanto Pribadi, Prof.Muhamad Abduh, Prof.Irwan Meilano, and Asst. Prof.Erwin Lim . This work was supported by the Higher Education Financing Centre (BPPT) Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia and Indonesia Endowment Fund for Education (LPDP), Ministry of Finance Republic of Indonesia awarded to Roi Milyardi [grant number: 202101122157]. The author would also like to thank Institut Teknologi Bandung, Ministry of Public Works and Housing Republic of Indonesia, and Universitas Kristen Maranatha  for providing facilities during research activities</param.description>
+    <param.screenshot>D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Institut Teknologi Bandung\TERANG\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\TERANG_1\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\TERANG_1\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\TERANG_1\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\TERANG_1</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TERANG_v1_0.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BuildingID.png</file>
+      <file>${PROJECT_ROOT}\capacity.csv</file>
+      <file>${PROJECT_ROOT}\Eqcitydata.csv</file>
+      <file>${PROJECT_ROOT}\fcas.csv</file>
+      <file>${PROJECT_ROOT}\fcds.csv</file>
+      <file>${PROJECT_ROOT}\fcstr.csv</file>
+      <file>${PROJECT_ROOT}\indonesia-flag-circular-17761.png</file>
+      <file>${PROJECT_ROOT}\KARTIKAv1.0.png</file>
+      <file>${PROJECT_ROOT}\kecamatanID.csv</file>
+      <file>${PROJECT_ROOT}\kelurahanID.csv</file>
+      <file>${PROJECT_ROOT}\kotaID.csv</file>
+      <file>${PROJECT_ROOT}\logo_itb_128.png</file>
+      <file>${PROJECT_ROOT}\provinsiID.csv</file>
+      <file>${PROJECT_ROOT}\type.png</file>
+      <file>${PROJECT_ROOT}\uk-flag-circular-17883.png</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\TERANG_1\for_testing" name="splash.png" optional="false">D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0\TERANG_1\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\TERANG_1\for_testing" name="TERANG.exe" optional="false">D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0\TERANG_1\for_testing\TERANG.exe</file>
+      <file location="${PROJECT_ROOT}\TERANG_1\for_testing" name="readme.txt" optional="true">D:\ITB-S3 MRK\0-Matlab\ERUGI_V1\TERANGv1.0\TERANG_1\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
