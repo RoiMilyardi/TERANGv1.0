@@ -15,10 +15,14 @@ Note that if MATLAB runtime was not already installed on the local PC, the user 
 
 In addition to the executable file (TERANG_v1.0.exe), there is also a TERANG_v1_0.mlapp file that can be run using the MATLAB App Designer. In addition, the TERANG_v1_0.m source code is also available in the ‘Source’ folder on this github.
 
+Link .exe File:
+https://github.com/RoiMilyardi/TERANGv1.0/blob/511549bd8aa73da570615b0bd08519f3dc8bebeb/TERANG_v1.0.exe
+
 Link .mlapp File:
 https://github.com/RoiMilyardi/TERANGv1.0/blob/edd0d1f8f1579c9f4a9c1eda7595eea1dc6834b7/source/TERANG_v1_0.mlapp
 
-Link .m File: https://github.com/RoiMilyardi/TERANGv1.0/blob/edd0d1f8f1579c9f4a9c1eda7595eea1dc6834b7/source/TERANG_v1_0.m
+Link .m File:
+https://github.com/RoiMilyardi/TERANGv1.0/blob/edd0d1f8f1579c9f4a9c1eda7595eea1dc6834b7/source/TERANG_v1_0.m
 
 ## Licence
 GNU General Public License Version 3
